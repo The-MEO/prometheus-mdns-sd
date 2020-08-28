@@ -1,15 +1,15 @@
-image: The-MEO/prometheus-mdns-sd:latest
+image: thedevmeo/prometheus-mdns-sd:latest
 manifests:
-  - image: The-MEO/prometheus-mdns-sd:amd64
+  - image: thedevmeo/prometheus-mdns-sd:amd64
     platform:
       architecture: amd64
       os: linux
-  - image: The-MEO/prometheus-mdns-sd:arm32v7
+  - image: thedevmeo/prometheus-mdns-sd:arm32v7
     platform:
       architecture: arm
       os: linux
       variant: v7
-  - image: The-MEO/prometheus-mdns-sd:arm64v8
+  - image: thedevmeo/prometheus-mdns-sd:arm64v8
     platform:
       architecture: arm64
       os: linux
